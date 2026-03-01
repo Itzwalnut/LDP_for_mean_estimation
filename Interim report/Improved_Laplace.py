@@ -173,13 +173,6 @@ def main():
     print(f"selection rate:    {summary['selection_rate']:.6f}")
     print(f"min(pi), max(pi):  {summary['min_pi']:.6f}, {summary['max_pi']:.6f}")
 
-    # Optional: write JSON report
-    save_json = input("\nSave summary JSON? (y/N): ").strip().lower()
-    if save_json == "y":
-        out_path = Path("pslm_summary.json")
-        with open(out_path, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2)
-        print(f"Saved summary JSON to: {out_path.resolve()}")
 
 if __name__ == "__main__":
     main()
