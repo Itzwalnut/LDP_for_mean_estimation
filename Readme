@@ -6,8 +6,9 @@ Locally Differentially Private Protocols for mean estimation
   evaluating the results
 - the code uses standard libraries such as numpy and pandas for data manipulation
 - command-line interfaces are provided for easy execution and parameter tuning
-- Public dataset used for interim report:Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Wine Quality [Dataset]. UCI Machine Learning Repository. 
+// Public dataset used for interim report:Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Wine Quality [Dataset]. UCI Machine Learning Repository. 
   https://doi.org/10.24432/C56S3T.
-  - Incase the link is not accessible, the dataset can be found by searching for "UCI Wine Quality Dataset" online.
+  - Incase the link is not accessible, the dataset can be found by searching for "UCI Wine Quality Dataset" online.//
 - Public dataset for final report:	A. Hussain, “Amazon_Sales_Dataset,” Kaggle.com, 2025. https://www.kaggle.com/datasets/aliiihussain/amazon-sales-dataset/discussion?sort=hotness
  
+Reminder: the paper for introducing the mechanism haven't published yet
