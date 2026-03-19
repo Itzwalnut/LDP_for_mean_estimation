@@ -7,7 +7,7 @@ import pandas as pd
 # =========================
 # Configuration (edit here)
 # =========================
-FILE_PATH = r"C:\Code\VS code\FYP\LDP_Mechanisms\Final report\Dataset\amazon_sales_dataset_5000dataset.xlsx"
+FILE_PATH = r".\Dataset\amazon_sales_dataset_5000dataset.xlsx"
 SHEET = 0
 COL = "rating (1-5)"
 
