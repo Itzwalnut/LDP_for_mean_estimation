@@ -8,7 +8,7 @@ import pandas as pd
 # Configuration (edit here)
 # =========================
 FILE_PATH = r".\Dataset\amazon_sales_dataset_5000dataset.xlsx"
-SHEET = 0
+SHEET = 3
 COL = "rating (1-5)"
 
 # HM switching threshold epsilon* (≈ 0.61 as in your report)

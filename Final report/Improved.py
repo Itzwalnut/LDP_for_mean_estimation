@@ -8,7 +8,7 @@ import pandas as pd
 # Configuration (edit here)
 # =========================
 FILE_PATH = r".\Dataset\amazon_sales_dataset_5000dataset.xlsx"
-SHEET = 0
+SHEET = 3
 COL = "rating (1-5)"
 
 # Public bounds for star ratings
@@ -98,8 +98,8 @@ def improved_laplace_vectorized(
     m = (L + U) / 2.0
 
     # 1) Targets and c
-    n_relative = 2.0 * k * p_rel / eps
-    n_absolute = 2.0 * k * R / (eps * sigma)
+    n_relative = 2 * k / (eps* p_rel)
+    n_absolute = 2 * R * k / (eps * sigma)
     n = max(n_relative, n_absolute)
     # Guard against extremely small n (numerical)
     if n <= 0:
